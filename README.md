@@ -1,6 +1,11 @@
 # cypress-config-issue
 
-This template should help get you started developing with Vue 3 in Vite.
+Repoduction of the code that causes the `Your tests are loading...` issue for me. 
+I used `npm init vue@latest` to setup the Vue 3 project and used the Vue Quick start of Cypress to setup Cypress
+
+Issue happens when I had either a plugin (BasicSsl) or add server options to the `vite.config.js` file.
+
+Tried to add `viteConfig` to the `cypress.config.js` file but did not solve the issue.
 
 ## Recommended IDE Setup
 
